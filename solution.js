@@ -28,7 +28,7 @@ function printChessboard(size) {
 }
 
 // Podes cambiar el número para ver distintos tamaños de tableros en consola.
-paintChessboard(10);
+printChessboard(10);
 
 const end = performance.now();
 console.log("Tiempo de ejecución:", end - start, "milisegundos");
